@@ -12,7 +12,7 @@
 
 
 
-	root_block_size {
+	root_block_device {
 		volume_size = 30
 		volume_type = "gp2"
 		encrypted   = false
