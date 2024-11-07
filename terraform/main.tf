@@ -2,7 +2,7 @@
 	ami		= var.ami
 	instance_type	= "t2.medium"
 	key_name	=  "my-key"
-	security_groups =
+	security_groups = ["${aws_security_group.ubuntusg.name}"]
 	
 
 	tags = {
