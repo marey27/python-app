@@ -8,7 +8,7 @@
 	tags = {
 		Name = "Ubuntu-EC2"
 	}
-}
+
 
 
 
@@ -17,3 +17,5 @@
 		volume_type = "gp2"
 		encrypted   = false
 	}
+
+}
